@@ -1,7 +1,25 @@
 aid: superscript
-name: superscript
-description: superscript is a company surfaced as a portfolio company of seedcamp and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/superscript.png
+name: Superscript
+description: Superscript is a UK- and Netherlands-based business insurance provider offering
+  flexible, subscription-based cover for small and growing businesses, sole traders, landlords,
+  and larger enterprises. Its product range spans public and employers' liability, professional
+  indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct
+  and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and
+  added to the API Evangelist network. As of this enrichment pass it publishes no public API,
+  developer portal, or programmatic integration surface; this profile captures its public web
+  identity and probed domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/superscript/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- Business Insurance
+- Insurtech
+- Cyber Insurance
+- Fintech
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: http://gosuperscript.com
+- type: Blog
+  url: https://gosuperscript.com/news-and-resources/
+- type: Support
+  url: https://gosuperscript.com/faqs/
+- type: PrivacyPolicy
+  url: https://gosuperscript.com/privacy-notice/
+- type: TermsOfService
+  url: https://gosuperscript.com/website-terms-of-use/
+- type: DomainSecurity
+  url: security/superscript-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
